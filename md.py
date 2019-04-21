@@ -27,7 +27,7 @@ class M:
     def __str__(self): return 'r(%s,%s); v(%s,%s); f(%s,%s)'%(self.rx, self.ry, self.vx, self.vy, self.fx, self.fy)
 
 #build gum net
-side = 15
+side = 4
 b1 = lambda x,y: x<side-1 and x+1+y*side
 b2 = lambda x,y: y<side-1 and x+(y+1)*side
 b3 = lambda x,y: x<side-1 and y<side-1 and x+1+(y+1)*side

@@ -8,12 +8,14 @@
 
 /* Begin PBXFileReference section */
 		6D7122E9226938D000F7C320 /* md.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = md.py; sourceTree = "<group>"; };
+		6D7122EA226BF95E00F7C320 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		6D7122DE2269384300F7C320 = {
 			isa = PBXGroup;
 			children = (
+				6D7122EA226BF95E00F7C320 /* .gitignore */,
 				6D7122E9226938D000F7C320 /* md.py */,
 			);
 			sourceTree = "<group>";
